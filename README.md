@@ -1,5 +1,7 @@
 # MarginGuard Order Cost Allocation
 
+**What to try.** Run the PHP examples to see how shared costs are allocated without losing small currency units.
+
 [![Standalone PHP checks](https://github.com/aa71200/marginguard-order-cost-allocation/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/aa71200/marginguard-order-cost-allocation/actions/workflows/checks.yml)
 
 Dividing $1.00 across three order lines can lose a cent if each share is rounded independently. The **MarginGuard 1.0.0** allocator preserves the original total. It weights shares by revenue and uses quantities when revenue is zero.
