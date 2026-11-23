@@ -1,0 +1,87 @@
+{
+  "package": "brick/math",
+  "version": "0.13.1",
+  "source": {
+    "type": "git",
+    "url": "https://github.com/brick/math.git",
+    "reference": "fc7ed316430118cc7836bf45faff18d5dfc8de04"
+  },
+  "transformation": "Prefix all Brick\\Math namespaces and references with MarginGuard\\Vendor\\; no arithmetic changes.",
+  "files": [
+    {
+      "path": "BigDecimal.php",
+      "upstream_sha256": "022b42b78b61c0be5e23919429dd2910f6aa7be3928266f4601b3d3244307a3c",
+      "bundled_sha256": "ac8a3da13a461c0c4ffa473de8aeedcd39acf33159bfcec2c369f783f72affdc"
+    },
+    {
+      "path": "BigInteger.php",
+      "upstream_sha256": "d9d5a2571182f06b0790de2f82eb07c1d294f6218a1f926a410dac5fd60f3c93",
+      "bundled_sha256": "443f23e5bf2f1c338debeefa20798fc847fb17cd0d2dd7a80a3f5cb2cf893aa0"
+    },
+    {
+      "path": "BigNumber.php",
+      "upstream_sha256": "cfc49ec554e4cd1c6ff8b77edcc80d943e5803dcc9d753d5ebcb65b8ae42bf06",
+      "bundled_sha256": "e616aaa425aa68d426f09ecbf2ee7628697e4770c5f5afbd1a6b47664b069a36"
+    },
+    {
+      "path": "BigRational.php",
+      "upstream_sha256": "daa2272c411c052a437162a2bafc761dd40574c0d5941f954d36b7689b61e5a5",
+      "bundled_sha256": "0287cd574876774c1c227b5375f02933efb2390d364c170c65551be50d70a8fc"
+    },
+    {
+      "path": "Exception/DivisionByZeroException.php",
+      "upstream_sha256": "a65e7307afc6671e76fac9e0e64d70986a2bba61738978cf185ef469a19821b4",
+      "bundled_sha256": "d7e844c4ccb9a03c5868a3477203225f0d486a07176afce387850f378b8a3de1"
+    },
+    {
+      "path": "Exception/IntegerOverflowException.php",
+      "upstream_sha256": "27ff8348f863894592c9ef7d687b6026bc931308aeca083d16090ad855a07d61",
+      "bundled_sha256": "ed9bba0d73bb7181b57773a8d5d445719df074091598fd8c4e254fceec5d4bbd"
+    },
+    {
+      "path": "Exception/MathException.php",
+      "upstream_sha256": "22fb32801713fb8f2744405e296b4344b087bdb834f973393388c486dae3e53e",
+      "bundled_sha256": "3a964d74b5ad0e075491930a060ce96be626b494826c9006c5cf9a5951d32ba4"
+    },
+    {
+      "path": "Exception/NegativeNumberException.php",
+      "upstream_sha256": "9b74142e2c0c4921893d1ae96549f7769f518c6f9775b63a24823d105467da6b",
+      "bundled_sha256": "93bc8300088b6e01fcbc4d30a090c002deafc297d7897da4e97c3d256aaf6485"
+    },
+    {
+      "path": "Exception/NumberFormatException.php",
+      "upstream_sha256": "93c2bd2e19d4497f2b47102a0c4f4176d23e42b03b2983d4e3db0d7d3ffbd4e5",
+      "bundled_sha256": "a3b86612fbfe4c6865b77bd316f1093889d75d2c5fb62c3510d8ed9adf894663"
+    },
+    {
+      "path": "Exception/RoundingNecessaryException.php",
+      "upstream_sha256": "43997b0b4779555f9edb4fca54cf7748bb9e8eaedf840b364f0b02a5028f895c",
+      "bundled_sha256": "fde10d3e2c40f469751b60844dc4480281ab7b1b949fc5f6acfb6829e8d2e28f"
+    },
+    {
+      "path": "Internal/Calculator/BcMathCalculator.php",
+      "upstream_sha256": "ab2d4ab335b0ec29d5531fba0d781f11acce4d9eb476ea944827488cb8149c7d",
+      "bundled_sha256": "2e4708877bfd27a11be11ad6952ad178735375ffe838fcd2a0b2624c6d0f918d"
+    },
+    {
+      "path": "Internal/Calculator/GmpCalculator.php",
+      "upstream_sha256": "9efcd3055789ec6403358a2a67049238dbf3dfa21cd3b0d55669a672f3c99a21",
+      "bundled_sha256": "5bba025109830b4e4e909584dce1ed3d0cbd59f81c69ba6fe4879990a0b3d618"
+    },
+    {
+      "path": "Internal/Calculator/NativeCalculator.php",
+      "upstream_sha256": "81f6f89f6e60f988c7dd1c071a69cd761f654b927195803cd6f4a3f4e5dbfcec",
+      "bundled_sha256": "12a59a0bfd1fe3bc0b4df29f2d3bdce8b0b553f972b8f2b84637eb21d41c6c19"
+    },
+    {
+      "path": "Internal/Calculator.php",
+      "upstream_sha256": "f7f892979fc9797b0502e44176bd9a76bb45d7193c78f809e93c57be33e9d91d",
+      "bundled_sha256": "7b7f716d51b8eaa716f26cb0d6269587a8f2722108348cda011af7d1284f0959"
+    },
+    {
+      "path": "RoundingMode.php",
+      "upstream_sha256": "397d6d8004dfeb6b8d950937c07c65f47342eb4ea3f0ddcc0348be77c8e3f799",
+      "bundled_sha256": "c63bf7ac905abecf9fe7999225b48a369cd2f0025389a3d67408c3d742d3aa97"
+    }
+  ]
+}
