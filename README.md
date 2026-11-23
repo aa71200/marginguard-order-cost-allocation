@@ -14,3 +14,5 @@ IRR 9 = 6 + 3
 The fixture also computes the sum using decimal arithmetic. Follow [the original allocator](src/Engines/OrderAllocator.php) and [its money type](src/Engines/Money.php). The original scoped Brick Math dependency, its notice and provenance metadata are in [the dependency folder](src/Vendor/Brick/Math). The CodexaWP source is [GPL-2.0-or-later](LICENSE).
 
 [Verification output](docs/verification.txt)
+
+The extended fixture covers 0-, 2- and 3-decimal currency scales, unequal weights, zero cost, a stable tie-break regardless of input order, values beyond native integer capacity and invalid inputs. Set `CODEXAWP_TEST_WP_LOAD` to the `wp-load.php` of a disposable WooCommerce site and run `php tests/check.php` to allocate money against persisted synthetic order lines.
