@@ -1,6 +1,6 @@
 # MarginGuard Order Cost Allocation
 
-A selected PHP engine from CodexaWP’s **MarginGuard 1.0.0** plugin. It distributes a shared order cost across line items in minor units, without losing a cent. Lines are weighted by revenue; a zero-revenue order uses the number of units instead.
+Dividing $1.00 across three order lines can lose a cent if each share is rounded independently. The **MarginGuard 1.0.0** allocator preserves the original total. It weights shares by revenue and uses quantities when revenue is zero.
 
 Run `php examples/check.php` on PHP 8.2 or newer. Expected example output:
 
