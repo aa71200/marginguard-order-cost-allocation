@@ -1,0 +1,48 @@
+{
+    "_comment": "Pre-existing findings from the portfolio review. Counts are limited to this file and sniff. Remove entries as code is corrected.",
+    "files": {
+        "examples/check.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.CloseBracketLine": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket": 1,
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 27,
+            "ERROR WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound": 15,
+            "ERROR WordPress.Security.EscapeOutput.OutputNotEscaped": 2,
+            "WARNING Generic.Formatting.MultipleStatementAlignment.NotSameWarning": 3,
+            "WARNING Universal.NamingConventions.NoReservedKeywordParameterNames.classFound": 1
+        },
+        "src/Engines/Money.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Squiz.Commenting.FunctionComment.Missing": 5,
+            "ERROR WordPress.Files.FileName.InvalidClassFileName": 1,
+            "ERROR WordPress.Files.FileName.NotHyphenatedLowercase": 1,
+            "ERROR WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid": 1
+        },
+        "src/Engines/OrderAllocator.php": {
+            "ERROR Generic.Commenting.DocComment.MissingShort": 1,
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.CloseBracketLine": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.MultipleArguments": 1,
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Squiz.Commenting.FunctionComment.IncorrectTypeHint": 1,
+            "ERROR Squiz.Commenting.FunctionComment.MissingParamComment": 1,
+            "ERROR Squiz.Commenting.FunctionComment.MissingParamTag": 3,
+            "ERROR Squiz.Commenting.FunctionComment.ParamNameNoMatch": 1,
+            "ERROR Squiz.Commenting.FunctionCommentThrowTag.Missing": 1,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 6,
+            "ERROR WordPress.Files.FileName.InvalidClassFileName": 1,
+            "ERROR WordPress.Files.FileName.NotHyphenatedLowercase": 1,
+            "ERROR WordPress.NamingConventions.ValidVariableName.VariableNotSnakeCase": 5,
+            "WARNING Generic.Formatting.MultipleStatementAlignment.NotSameWarning": 8
+        },
+        "tests/check.php": {
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 4,
+            "ERROR WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound": 1,
+            "ERROR WordPress.WP.GlobalVariablesOverride.Prohibited": 2
+        }
+    }
+}
